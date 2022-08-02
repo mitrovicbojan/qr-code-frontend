@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap");
 * {
   --white: hsl(0, 0%, 100%);
   --light-gray: hsl(212, 45%, 89%);
@@ -8,25 +9,37 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
 }
 p {
   font-size: 15px;
+  color: var(--grayish-blue);
+  text-align: center;
 }
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  border: 2px solid red;
   background-color: var(--light-gray);
+  max-width: 100%;
 }
 
 .container .card {
-  border: 2px solid green;
   display: flex;
   flex-direction: column;
-  padding: 25px;
-  border-radius: 10px;
-  width: 350px;
+  padding: 20px;
+  border-radius: 20px;
+  width: 250px;
   background-color: var(--white);
+  justify-content: center;
+}
+.title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.image {
+  border-radius: 10px;
 }
