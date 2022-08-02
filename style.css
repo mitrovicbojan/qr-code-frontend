@@ -30,9 +30,10 @@ p {
   flex-direction: column;
   padding: 20px;
   border-radius: 20px;
-  width: 250px;
+  max-width: 250px;
   background-color: var(--white);
   justify-content: center;
+  margin: 20px;
 }
 .title {
   text-align: center;
@@ -42,4 +43,5 @@ p {
 
 .image {
   border-radius: 10px;
+  max-width: 100%;
 }
